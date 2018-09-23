@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="MotorPWMtest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MotorPWMtest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:MotorPWMtest.Helpers"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="Slider" x:Key="MySlider">
+            <Setter Property="Minimum" Value="0"/>
+            <Setter Property="Maximum" Value="4095"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Width" Value="800"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <StackPanel Width=" 900" HorizontalAlignment="Center">
+            <TextBlock x:Name="TextBlock1" Text="Slider 1" HorizontalAlignment="Center" Margin="0,50,0,0" />
+            <Slider x:Name="Slider1" Style="{StaticResource MySlider}" ValueChanged="Slider1_ValueChanged"/>
+            <TextBlock x:Name="TextBlock2" Text="Slider 2" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider2" Style="{StaticResource MySlider}" ValueChanged="Slider2_ValueChanged"/>
+            <TextBlock x:Name="TextBlock3" Text="Slider 3" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider3" Style="{StaticResource MySlider}" ValueChanged="Slider3_ValueChanged"/>
+            <TextBlock x:Name="TextBlock4" Text="Slider 4" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider4" Style="{StaticResource MySlider}" ValueChanged="Slider4_ValueChanged"/>
+            <TextBlock x:Name="TextBlock5" Text="Slider 5" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider5" Style="{StaticResource MySlider}" ValueChanged="Slider5_ValueChanged"/>
+            <TextBlock x:Name="TextBlock6" Text="Slider 6" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider6" Style="{StaticResource MySlider}" ValueChanged="Slider6_ValueChanged"/>
+            <TextBlock x:Name="TextBlock7" Text="Slider 7" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider7" Style="{StaticResource MySlider}" ValueChanged="Slider7_ValueChanged"/>
+            <TextBlock x:Name="TextBlock8" Text="Slider 8" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="Slider8" Style="{StaticResource MySlider}" ValueChanged="Slider8_ValueChanged"/>
+            <TextBlock x:Name="TextBlockAll" Text="Slider All" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            <Slider x:Name="SliderAll" Style="{StaticResource MySlider}" ValueChanged="SliderAll_ValueChanged"/>
+        </StackPanel>
+    </Grid>
+</Page>
