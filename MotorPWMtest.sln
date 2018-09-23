@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorPWMtest", "MotorPWMtest\MotorPWMtest.csproj", "{DE242F4D-9251-47F4-80F6-F022038FA920}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|ARM.Build.0 = Debug|ARM
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|x64.ActiveCfg = Debug|x64
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|x64.Build.0 = Debug|x64
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|x64.Deploy.0 = Debug|x64
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|x86.ActiveCfg = Debug|x86
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|x86.Build.0 = Debug|x86
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Debug|x86.Deploy.0 = Debug|x86
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|ARM.ActiveCfg = Release|ARM
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|ARM.Build.0 = Release|ARM
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|ARM.Deploy.0 = Release|ARM
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|x64.ActiveCfg = Release|x64
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|x64.Build.0 = Release|x64
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|x64.Deploy.0 = Release|x64
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|x86.ActiveCfg = Release|x86
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|x86.Build.0 = Release|x86
+		{DE242F4D-9251-47F4-80F6-F022038FA920}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1489603-ACF4-4D8D-AAD3-F14914CA7DA5}
+	EndGlobalSection
+EndGlobal
